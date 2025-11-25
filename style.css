@@ -3,6 +3,19 @@
   margin: 0;
 }
 
+html, body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(
+    90deg,
+    black 0%,
+    rgb(71, 10, 128) 50%,
+    black 79%,
+    rgb(40, 1, 40) 100%
+  );
+  overflow-x: hidden;
+}
+
 .navbar {
   display: flex;
   justify-content: center;
@@ -559,7 +572,6 @@
     margin-top: 40px;
     font-size: 12px;
   }
-
 }
 
 @media (min-width: 471px) and (max-width: 700px) {
@@ -736,7 +748,6 @@
     margin-top: 40px;
     font-size: 14px;
   }
-
 }
 
 @media (min-width: 701px) and (max-width: 1200px) {
@@ -797,8 +808,8 @@
   }
 
   .facecard1 {
-   margin-top: 60px;
-   padding-right: 20px;
+    margin-top: 60px;
+    padding-right: 20px;
   }
 
   .nav-img1-box {
@@ -877,7 +888,6 @@
 
   .second-section2 {
     margin-top: 0;
-
   }
 
   .benefit-section2 h3 {
